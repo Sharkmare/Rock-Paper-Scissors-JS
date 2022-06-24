@@ -18,4 +18,4 @@ const Outcome = {
 console.log(Outcome[(ChoiceA[0]+ChoiceB[0]).toLowerCase()] ?? "Input Error")
 //take the first letter of both players choices, then combine them and make them lowercase
 //then try to access the pair of the combined choices
-// for example Rock bs Scissor would boil down into Choice[rs] if you want player 1s result and Choice[sr] if you want player 2s result
+// for example Rock vs Scissor would boil down into Choice[rs] if you want player 1s result and Choice[sr] if you want player 2s result
